@@ -21,7 +21,10 @@
 // - a common '.dependencies' file (for things like numpy and ipython that I can't imagine living without)
 
 %%1%% 
-    images
+    .env
+	.env_leave
+	.gitignore
+	images
     data
 ---
 # Build conda dependencies file
@@ -38,11 +41,9 @@ puts "Creating conda environment (be patient, downloading dependencies)"
 puts "    (if this hangs on visigoth, make sure proxy is set)"
 %x{cd %%1%%; conda env create}
 
-# Build autoenv config file
-# autoenv available via brew: brew install autoenv
-# full details at: https://github.com/kennethreitz/autoenv
+# Add env activate to config file
 puts "Building autoenv config file"
-%x{cd %%1%%; echo "source activate %%1%%" > .env}
+%x{cd %%1%%; echo "conda activate %%1%%" >> .env}
 
 # Git
 puts "Initializing git repo"

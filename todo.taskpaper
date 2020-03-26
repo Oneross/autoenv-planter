@@ -1,4 +1,9 @@
-- Find brew or git install method for plant and remove from repo @na
-- Update p3 template
+Inbox:
+- Update p3 template @na
+- add 
 - Maybe add infrastructure template for aws/gcp handling?
 - Add .gitignore construction
+
+
+Archive:
+	- Find brew or git install method for plant and remove from repo @na @done
