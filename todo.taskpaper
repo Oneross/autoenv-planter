@@ -1,9 +1,10 @@
 Inbox:
-	- Update p3 template @na
-	- add 
-	- Maybe add infrastructure template for aws/gcp handling?
-	- Add .gitignore construction
+	- Maybe add infrastructure template for aws/gcp handling? @na
 
 
 Archive:
+	- Update p3 template @na @done
+	- add handling for .env, .env_leave @done
+	- Add .gitignore construction @done
+	- remove p2 template (misnamed t2, and who uses python2 any more?!) @done
 	- Find brew or git install method for plant and remove from repo @na @done
