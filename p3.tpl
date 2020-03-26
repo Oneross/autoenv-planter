@@ -38,7 +38,6 @@ puts "- Injecting common dependencies"
 
 # Create conda env
 puts "Creating conda environment (be patient, downloading dependencies)"
-puts "    (if this hangs on visigoth, make sure proxy is set)"
 %x{cd %%1%%; conda env create}
 
 # Add env activate to config file
