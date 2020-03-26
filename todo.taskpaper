@@ -1,8 +1,8 @@
 Inbox:
-- Update p3 template @na
-- add 
-- Maybe add infrastructure template for aws/gcp handling?
-- Add .gitignore construction
+	- Update p3 template @na
+	- add 
+	- Maybe add infrastructure template for aws/gcp handling?
+	- Add .gitignore construction
 
 
 Archive:

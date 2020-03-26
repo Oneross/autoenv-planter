@@ -21,11 +21,11 @@
 // - a common '.dependencies' file (for things like numpy and ipython that I can't imagine living without)
 
 %%1%% 
-    .env
+	.env
 	.env_leave
 	.gitignore
 	images
-    data
+	data
 ---
 # Build conda dependencies file
 puts "Building conda environment.yml"

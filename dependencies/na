@@ -1,0 +1,1 @@
+[[ (-a todo.taskpaper) ]] && (cat todo.taskpaper | grep @na | grep -v @done) 
